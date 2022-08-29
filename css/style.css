@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.c-mr-0{
+    margin-right: 0px;
+}
+.custom-mar{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.menu ul li a{
+    color: white;
+}
+.logo{
+    color: white;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.menu{
+    margin-right: 100px;
+}
+.slider-heading{
+    font-size: 56px;
+    color: #C2C2C2;
+    margin-bottom: 10px;
+}
+.service{
+    min-height: 50vh;
+    background-color: #26aff0;
+    color: white;
+}
+.service i{
+    margin-bottom: 20px;
+    font-size: 30px
+}
+.service h5{
+    margin-bottom: 10px;
+}
+.service p{
+    text-align: justify;
+}
+
+.caro{
+    min-height: 21vh;
+    background-color: #e3e3e3;
+}
+.caro p{
+    font-style: italic;
+}
+.caro-icon{
+    color: black;
+}
+.caro-icon .special-i{
+    color: red;
+}
+.contact{
+    min-height: 40vh;
+    background-color: #1c1d21;
+}
+.contact span{
+    color: white;
+}
+.contact strong{
+    color: #8B8B8C;
+}
+.contact p{
+    color: #8B8B8C;;
+    font-size: 14px;
+}
+.contact-lh{
+    line-height: 30px;
+}
+.custom-lh{
+    line-height: 50px;
+}
+.custom-lh a{
+    text-decoration: none;
+}
+.contact-lh ul li{
+    list-style: none;
+}
+.contact-lh ul li a{
+    text-decoration: none;
+}
+.contact .link ul li a p:hover{
+    color: white;
+}
+.contact .hov-2 p:hover{
+    cursor: pointer;
+    color: white;
+}
+.contact .hov-3 p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.footer{
+    min-height: 100px;
+    background-color: #16181d;
+}
+.footer-content{
+    margin-top: 40px;
+    color: white;
+}
+.footer-social-icon li{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.footer-social-icon li i{
+    color: white;
+}
+
+
+@media (max-width: 540px) {
+    .custom-mar{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .service .col-6{
+        margin-bottom: 20px;
+    }
+    .service h2{
+        text-align: center;
+    }
+    .recent-work h4{
+        text-align: center;
+    }
+    .recent-work img{
+        padding: 0px 10px 8px;
+    }
+    .caro p{
+        text-align: justify;
+    }
+    .footer .col-12{
+        text-align: center;
+    }
+    .footer .footer-social-icon li{
+        float: left;
+        margin-left: 50px;
+    }
+    .menu ul{
+        background-color: #26aff0;
+        position: absolute;
+        z-index: 2;
+        width: 165px;
+        right: -70px;
+      }
+      .menu ul li a{
+        text-align: justify;
+        padding-left: 40px;
+      }
+}
